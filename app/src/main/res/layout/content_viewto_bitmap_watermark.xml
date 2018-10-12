@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.asus.camerademo.ViewtoBitmapWatermark"
+    tools:showIn="@layout/activity_viewto_bitmap_watermark">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative_layout_for_watermark_id"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/image_view_watermark_id"
+            android:src="@drawable/image_dummy"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Overlapping Text"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/holo_blue_dark"
+            android:paddingLeft="20dp"
+            android:id="@+id/text_view_watermark_id"
+            />
+    </RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Photo"
+        android:id="@+id/btn_watermark_id"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CameraDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_simple_camera">SimpleCameraActivity</string>
+    <string name="title_activity_simple_camera_with_file_provider">
+        SimpleCameraWithFileProviderActivity
+    </string>
+    <string name="title_activity_camera_activity_with_camera_api">CameraActivityWithCameraAPI
+    </string>
+    <string name="title_activity_camera_activity_with_surface_view_and_camera_api">
+        CameraActivityWithSurfaceViewAndCameraAPI
+    </string>
+    <string name="title_activity_viewto_bitmap_watermark">ViewtoBitmapWatermark</string>
+</resources>
